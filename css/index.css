@@ -238,6 +238,41 @@ hr {
   margin-bottom: 15px;
   box-shadow: 5px 5px 5px rgb(0 0 0 / 40%);
 }
+.team .t-item .item2 .block {
+  position: relative;
+}
+.t-item .item2 .layer1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0%;
+}
+
+.team .t-item .item2 .layer1 .bg {
+  background-color: #14141463;
+  width: 100%;
+  position: absolute;
+  top: 20px;
+  transition: 0.4s;
+}
+.team .t-item .item2 .layer1 .text {
+}
+.team .t-item .item2 .layer1 .mota {
+}
+.team .t-item .item2 .layer1 .social {
+}
+
+.team .t-item .item2:hover .layer1 {
+}
+.team .t-item .item2:hover .layer1 .bg {
+}
+.team .t-item .item2:hover .layer1 .text {
+}
+.team .t-item .item2:hover .layer1 .mota {
+}
+.team .t-item .item2:hover .layer1 .social {
+}
+
 .team .t-item img {
   width: 100%;
   display: block;

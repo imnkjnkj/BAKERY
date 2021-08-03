@@ -238,39 +238,51 @@ hr {
   margin-bottom: 15px;
   box-shadow: 5px 5px 5px rgb(0 0 0 / 40%);
 }
-.team .t-item .item2 .block {
+.team .item2 .block {
   position: relative;
 }
-.t-item .item2 .layer1 {
+.team .item2 .layer1 {
   position: absolute;
   top: 0;
   left: 0;
   opacity: 0%;
+  width: 100%;
 }
 
-.team .t-item .item2 .layer1 .bg {
-  background-color: #14141463;
-  width: 100%;
+.team .item2 .layer1 .bg {
   position: absolute;
   top: 20px;
   transition: 0.4s;
 }
-.team .t-item .item2 .layer1 .text {
+.team .item2 .layer1 .text {
 }
-.team .t-item .item2 .layer1 .mota {
+.team .item2 .layer1 .mota {
 }
-.team .t-item .item2 .layer1 .social {
+.team .item2 .layer1 .social {
 }
 
-.team .t-item .item2:hover .layer1 {
+.team .item2:hover .layer1 {
+  background-color: #14141463;
+  width: 100%;
+  height: 100%;
+  opacity: 100;
+  padding: 30% 15px;
 }
-.team .t-item .item2:hover .layer1 .bg {
+.team .item2:hover .layer1 .bg {
+  background-color: #14141463;
+  width: 100%;
 }
-.team .t-item .item2:hover .layer1 .text {
+.team .item2:hover .layer1 .text {
+  background-color: #14141400;
 }
-.team .t-item .item2:hover .layer1 .mota {
+.team .item2:hover .layer1 .text .title {
+  color: #ff0e83;
+  font-size: 24px;
 }
-.team .t-item .item2:hover .layer1 .social {
+.team .item2:hover .layer1 .mota {
+  padding: 15px;
+}
+.team .item2:hover .layer1 .social {
 }
 
 .team .t-item img {
@@ -278,8 +290,10 @@ hr {
   display: block;
 }
 .team .text {
-  background-color: #c62584;
   padding: 15px;
+}
+.team .t-item .text {
+  background-color: #c62584;
 }
 .team .line5 {
   top: 26rem;
